@@ -470,7 +470,7 @@ class BasicLayer(nn.Module):
                                  shift_size=0 if (i % 2 == 0) else window_size // 2,
                                  mlp_ratio=mlp_ratio,
                                  qkv_bias=qkv_bias, qk_scale=qk_scale,
-                                 drop=drop, attn_drop=attn_drop,
+                                 drop=drop, 
                                  drop_path=drop_path[i] if isinstance(drop_path, list) else drop_path,
                                  norm_layer=norm_layer)
             for i in range(depth)])
@@ -539,7 +539,7 @@ class BasicLayer_up(nn.Module):
                                  shift_size=0 if (i % 2 == 0) else window_size // 2,
                                  mlp_ratio=mlp_ratio,
                                  qkv_bias=qkv_bias, qk_scale=qk_scale,
-                                 drop=drop, attn_drop=attn_drop,
+                                 drop=drop, 
                                  drop_path=drop_path[i] if isinstance(drop_path, list) else drop_path,
                                  norm_layer=norm_layer)
             for i in range(depth)])
@@ -687,7 +687,7 @@ class SwinTransformerSys(nn.Module):
                                window_size=window_size,
                                mlp_ratio=self.mlp_ratio,
                                qkv_bias=qkv_bias, qk_scale=qk_scale,
-                               drop=drop_rate, attn_drop=attn_drop_rate,
+                               drop=drop_rate, 
                                drop_path=dpr[sum(depths[:i_layer]):sum(depths[:i_layer + 1])],
                                norm_layer=norm_layer,
                                downsample=PatchMerging if (i_layer < self.num_layers - 1) else None,
@@ -716,7 +716,7 @@ class SwinTransformerSys(nn.Module):
                                          window_size=window_size,
                                          mlp_ratio=self.mlp_ratio,
                                          qkv_bias=qkv_bias, qk_scale=qk_scale,
-                                         drop=drop_rate, attn_drop=attn_drop_rate,
+                                         drop=drop_rate, 
                                          drop_path=dpr[sum(depths[:(self.num_layers - 1 - i_layer)]):sum(
                                              depths[:(self.num_layers - 1 - i_layer) + 1])],
                                          norm_layer=norm_layer,

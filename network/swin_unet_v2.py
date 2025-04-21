@@ -9,7 +9,7 @@ import torch.nn.functional as F
 import torch.utils.checkpoint as checkpoint
 from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 import einops
-from flash_swin_attn import flash_swin_attn_func, window_partition, window_reverse, mha_core
+
 
 
 class Mlp(nn.Module):
