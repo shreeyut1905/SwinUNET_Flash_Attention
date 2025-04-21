@@ -16,7 +16,7 @@ import numpy as np
 from torch.nn import CrossEntropyLoss, Dropout, Softmax, Linear, Conv2d, LayerNorm
 from torch.nn.modules.utils import _pair
 from scipy import ndimage
-from .swin_unet_v2 import SwinTransformerSys
+from .SwinUNET_flash import SwinTransformerSys
 
 logger = logging.getLogger(__name__)
 
