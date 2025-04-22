@@ -1,0 +1,16 @@
+{"time":"2025-04-22T21:46:15.7228649+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Shreeyut\\deep-learning-lab\\UNET-SWIN\\SwinUNET_Flash_Attention\\wandb\\run-20250422_214615-g71h0mql\\logs\\debug-core.log"}
+{"time":"2025-04-22T21:46:17.1420051+05:30","level":"INFO","msg":"created new stream","id":"g71h0mql"}
+{"time":"2025-04-22T21:46:17.1420051+05:30","level":"INFO","msg":"stream: started","id":"g71h0mql"}
+{"time":"2025-04-22T21:46:17.1420051+05:30","level":"INFO","msg":"handler: started","stream_id":"g71h0mql"}
+{"time":"2025-04-22T21:46:17.1420051+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"g71h0mql"}
+{"time":"2025-04-22T21:46:17.1420051+05:30","level":"INFO","msg":"sender: started","stream_id":"g71h0mql"}
+{"time":"2025-04-22T21:46:17.8008665+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T21:46:21.2937718+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-22T21:46:21.2948124+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-22T21:46:22.3043867+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-04-22T21:46:22.9777501+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-22T21:46:23.4885336+05:30","level":"INFO","msg":"stream: closing","id":"g71h0mql"}
+{"time":"2025-04-22T21:46:23.4885336+05:30","level":"INFO","msg":"handler: closed","stream_id":"g71h0mql"}
+{"time":"2025-04-22T21:46:23.4885336+05:30","level":"INFO","msg":"sender: closed","stream_id":"g71h0mql"}
+{"time":"2025-04-22T21:46:23.4885336+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"g71h0mql"}
+{"time":"2025-04-22T21:46:23.4885336+05:30","level":"INFO","msg":"stream: closed","id":"g71h0mql"}

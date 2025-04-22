@@ -1,0 +1,28 @@
+SwinTransformerSys expand initial----depths:[2, 2, 2, 2];depths_decoder:[1, 2, 2, 2];drop_path_rate:0.1;num_classes:4
+C:\Users\Shreeyut\AppData\Roaming\Python\Python313\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Traceback (most recent call last):
+  File "c:\Users\Shreeyut\deep-learning-lab\UNET-SWIN\SwinUNET_Flash_Attention\network\trainer.py", line 27, in <module>
+    model = SwinTransformerSys(img_size=512,in_chans=4,num_classes=4).to(device)
+            ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Shreeyut\deep-learning-lab\UNET-SWIN\SwinUNET_Flash_Attention\network\swin_unet_v2.py", line 705, in __init__
+    layer = BasicLayer(dim=int(embed_dim * 2 ** i_layer),
+                       input_resolution=(patches_resolution[0] // (2 ** i_layer),
+    ...<9 lines>...
+                       downsample=PatchMerging if (i_layer < self.num_layers - 1) else None,
+                       use_checkpoint=use_checkpoint)
+  File "c:\Users\Shreeyut\deep-learning-lab\UNET-SWIN\SwinUNET_Flash_Attention\network\swin_unet_v2.py", line 493, in __init__
+    SwinTransformerBlock(dim=dim, input_resolution=input_resolution,
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         num_heads=num_heads, window_size=window_size,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                         drop_path=drop_path[i] if isinstance(drop_path, list) else drop_path,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         norm_layer=norm_layer)
+                         ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Shreeyut\deep-learning-lab\UNET-SWIN\SwinUNET_Flash_Attention\network\swin_unet_v2.py", line 283, in __init__
+    mask_windows = window_partition(img_mask, self.window_size)  # nW, window_size, window_size, 1
+  File "c:\Users\Shreeyut\deep-learning-lab\UNET-SWIN\SwinUNET_Flash_Attention\network\swin_unet_v2.py", line 43, in window_partition
+    x = x.view(B, H // window_size, window_size, W // window_size, window_size, C)
+RuntimeError: shape '[1, 18, 7, 18, 7, 1]' is invalid for input of size 16384

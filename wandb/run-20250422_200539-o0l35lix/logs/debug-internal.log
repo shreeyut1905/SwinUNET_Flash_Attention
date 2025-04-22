@@ -1,0 +1,15 @@
+{"time":"2025-04-22T20:05:39.705219+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Shreeyut\\deep-learning-lab\\UNET-SWIN\\SwinUNET_Flash_Attention\\wandb\\run-20250422_200539-o0l35lix\\logs\\debug-core.log"}
+{"time":"2025-04-22T20:05:40.8210045+05:30","level":"INFO","msg":"created new stream","id":"o0l35lix"}
+{"time":"2025-04-22T20:05:40.8210045+05:30","level":"INFO","msg":"stream: started","id":"o0l35lix"}
+{"time":"2025-04-22T20:05:40.8210045+05:30","level":"INFO","msg":"handler: started","stream_id":"o0l35lix"}
+{"time":"2025-04-22T20:05:40.8210045+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"o0l35lix"}
+{"time":"2025-04-22T20:05:40.8210045+05:30","level":"INFO","msg":"sender: started","stream_id":"o0l35lix"}
+{"time":"2025-04-22T20:05:41.2924412+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T20:05:43.9779475+05:30","level":"INFO","msg":"stream: closing","id":"o0l35lix"}
+{"time":"2025-04-22T20:05:43.9779475+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-22T20:05:43.9784529+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-22T20:05:45.0894938+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-22T20:05:45.487476+05:30","level":"INFO","msg":"handler: closed","stream_id":"o0l35lix"}
+{"time":"2025-04-22T20:05:45.487476+05:30","level":"INFO","msg":"sender: closed","stream_id":"o0l35lix"}
+{"time":"2025-04-22T20:05:45.487476+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"o0l35lix"}
+{"time":"2025-04-22T20:05:45.4879843+05:30","level":"INFO","msg":"stream: closed","id":"o0l35lix"}

@@ -841,7 +841,7 @@ class SwinTransformerSys(nn.Module):
 if __name__=='__main__':
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print('#### Test Model ###')
-    x = torch.rand(4, 3, 224, 224).to(device)
-    model = SwinTransformerSys().to(device)
+    x = torch.rand(1, 4, 224, 224).to(device)
+    model = SwinTransformerSys(in_chans=4,num_classes=1).to(device)
     y = model(x)
     print(y.size())

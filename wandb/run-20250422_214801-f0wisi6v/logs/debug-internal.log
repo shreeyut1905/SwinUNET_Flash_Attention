@@ -1,0 +1,17 @@
+{"time":"2025-04-22T21:48:01.9041611+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Shreeyut\\deep-learning-lab\\UNET-SWIN\\SwinUNET_Flash_Attention\\wandb\\run-20250422_214801-f0wisi6v\\logs\\debug-core.log"}
+{"time":"2025-04-22T21:48:02.7180744+05:30","level":"INFO","msg":"created new stream","id":"f0wisi6v"}
+{"time":"2025-04-22T21:48:02.7180744+05:30","level":"INFO","msg":"stream: started","id":"f0wisi6v"}
+{"time":"2025-04-22T21:48:02.7186558+05:30","level":"INFO","msg":"handler: started","stream_id":"f0wisi6v"}
+{"time":"2025-04-22T21:48:02.7186558+05:30","level":"INFO","msg":"sender: started","stream_id":"f0wisi6v"}
+{"time":"2025-04-22T21:48:02.7186558+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"f0wisi6v"}
+{"time":"2025-04-22T21:48:03.6523125+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T21:48:18.6786153+05:30","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-04-22T21:48:21.4970247+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-22T21:48:21.4976767+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-22T21:48:22.50601+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.6313521,"progress":"11.1KB/11.1KB"}],"total_operations":1}}
+{"time":"2025-04-22T21:48:23.101179+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-22T21:48:23.5407751+05:30","level":"INFO","msg":"stream: closing","id":"f0wisi6v"}
+{"time":"2025-04-22T21:48:23.5407751+05:30","level":"INFO","msg":"handler: closed","stream_id":"f0wisi6v"}
+{"time":"2025-04-22T21:48:23.5407751+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"f0wisi6v"}
+{"time":"2025-04-22T21:48:23.5407751+05:30","level":"INFO","msg":"sender: closed","stream_id":"f0wisi6v"}
+{"time":"2025-04-22T21:48:23.5407751+05:30","level":"INFO","msg":"stream: closed","id":"f0wisi6v"}

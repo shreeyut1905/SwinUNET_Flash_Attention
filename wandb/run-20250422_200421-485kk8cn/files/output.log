@@ -1,0 +1,12 @@
+SwinTransformerSys expand initial----depths:[2, 2, 2, 2];depths_decoder:[1, 2, 2, 2];drop_path_rate:0.1;num_classes:1
+C:\Users\Shreeyut\AppData\Roaming\Python\Python313\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+---final upsample expand_first---
+loading data from the directory: SwinUNET_Flash_Attention\network\STARCOP\ang20190922t192642_r2048_c0_w512_h512-20250410T125838Z-001
+Traceback (most recent call last):
+  File "c:\Users\Shreeyut\deep-learning-lab\UNET-SWIN\SwinUNET_Flash_Attention\network\trainer.py", line 39, in <module>
+    dataset = CustomDataset("SwinUNET_Flash_Attention\\network\\STARCOP\\ang20190922t192642_r2048_c0_w512_h512-20250410T125838Z-001", transform)
+  File "c:\Users\Shreeyut\deep-learning-lab\UNET-SWIN\SwinUNET_Flash_Attention\network\dataset.py", line 30, in __init__
+    for folder_name in os.listdir(data_path):
+                       ~~~~~~~~~~^^^^^^^^^^^
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'SwinUNET_Flash_Attention\\network\\STARCOP\\ang20190922t192642_r2048_c0_w512_h512-20250410T125838Z-001'

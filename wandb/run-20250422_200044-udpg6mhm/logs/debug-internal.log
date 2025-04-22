@@ -1,0 +1,15 @@
+{"time":"2025-04-22T20:00:44.2475317+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"C:\\Users\\Shreeyut\\deep-learning-lab\\UNET-SWIN\\SwinUNET_Flash_Attention\\wandb\\run-20250422_200044-udpg6mhm\\logs\\debug-core.log"}
+{"time":"2025-04-22T20:00:45.0612087+05:30","level":"INFO","msg":"created new stream","id":"udpg6mhm"}
+{"time":"2025-04-22T20:00:45.0618484+05:30","level":"INFO","msg":"stream: started","id":"udpg6mhm"}
+{"time":"2025-04-22T20:00:45.0618484+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"udpg6mhm"}
+{"time":"2025-04-22T20:00:45.0618484+05:30","level":"INFO","msg":"sender: started","stream_id":"udpg6mhm"}
+{"time":"2025-04-22T20:00:45.0618484+05:30","level":"INFO","msg":"handler: started","stream_id":"udpg6mhm"}
+{"time":"2025-04-22T20:00:45.526721+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-22T20:00:46.2697376+05:30","level":"INFO","msg":"stream: closing","id":"udpg6mhm"}
+{"time":"2025-04-22T20:00:46.2697376+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-22T20:00:46.2702434+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-22T20:00:47.7627465+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-22T20:00:48.2055444+05:30","level":"INFO","msg":"handler: closed","stream_id":"udpg6mhm"}
+{"time":"2025-04-22T20:00:48.2055444+05:30","level":"INFO","msg":"sender: closed","stream_id":"udpg6mhm"}
+{"time":"2025-04-22T20:00:48.2055444+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"udpg6mhm"}
+{"time":"2025-04-22T20:00:48.2060627+05:30","level":"INFO","msg":"stream: closed","id":"udpg6mhm"}

@@ -1,0 +1,42 @@
+{
+  "os":  "Windows-11-10.0.26100-SP0",
+  "python":  "CPython 3.13.1",
+  "startedAt":  "2025-04-22T16:12:18.992215Z",
+  "program":  "c:\\Users\\Shreeyut\\deep-learning-lab\\UNET-SWIN\\SwinUNET_Flash_Attention\\network\\trainer.py",
+  "codePath":  "network\\trainer.py",
+  "git":  {
+    "remote":  "https://github.com/shreeyut1905/SwinUNET_Flash_Attention.git",
+    "commit":  "ba3feb5c7dd229400bf146bfc0fffe1c02939b57"
+  },
+  "email":  "me230003071@iiti.ac.in",
+  "root":  "C:\\Users\\Shreeyut\\deep-learning-lab\\UNET-SWIN\\SwinUNET_Flash_Attention",
+  "host":  "LAPTOP-N36F6CKI",
+  "executable":  "C:\\Python313\\python.exe",
+  "codePathLocal":  "network\\trainer.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "gpu":  "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "511071744000",
+      "used":  "483654795264"
+    }
+  },
+  "memory":  {
+    "total":  "16473034752"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  16
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  2048,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.6"
+}

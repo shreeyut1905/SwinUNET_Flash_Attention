@@ -1,0 +1,46 @@
+SwinTransformerSys expand initial----depths:[2, 2, 2, 2];depths_decoder:[1, 2, 2, 2];drop_path_rate:0.1;num_classes:4
+C:\Users\Shreeyut\AppData\Roaming\Python\Python313\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+---final upsample expand_first---
+loading data from the directory: C:\Users\Shreeyut\deep-learning-lab\UNET-SWIN\SwinUNET_Flash_Attention\network\STARCOP\ang20190922t192642_r2048_c0_w512_h512-20250410T125838Z-001
+Found 1 valid image-mask pairs
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+0.9107796549797058
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-0.001059107598848641
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-0.5919564366340637
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-1.031065583229065
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-1.4078844785690308
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-1.726922869682312
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-2.017428398132324
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-2.2888429164886475
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-2.5460071563720703
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-2.79202938079834

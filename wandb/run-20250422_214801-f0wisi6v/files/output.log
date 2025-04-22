@@ -1,0 +1,406 @@
+SwinTransformerSys expand initial----depths:[2, 2, 2, 2];depths_decoder:[1, 2, 2, 2];drop_path_rate:0.1;num_classes:4
+C:\Users\Shreeyut\AppData\Roaming\Python\Python313\site-packages\torch\functional.py:539: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\native\TensorShape.cpp:3638.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+---final upsample expand_first---
+loading data from the directory: C:\Users\Shreeyut\deep-learning-lab\UNET-SWIN\SwinUNET_Flash_Attention\network\STARCOP\ang20190922t192642_r2048_c0_w512_h512-20250410T125838Z-001
+Found 1 valid image-mask pairs
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+0.7229456305503845
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+0.14542777836322784
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-0.3408406376838684
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-0.7253408432006836
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-1.0095338821411133
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-1.291202425956726
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-1.5680288076400757
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-1.8293997049331665
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-2.076988697052002
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-2.3111064434051514
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-2.5329487323760986
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-2.742711305618286
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-2.939545154571533
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-3.12319016456604
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-3.293466091156006
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-3.450407028198242
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-3.595136880874634
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-3.7257986068725586
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-3.850085735321045
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-3.962103843688965
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.061779499053955
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.158600330352783
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.2428789138793945
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.322951793670654
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.397837162017822
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.465816497802734
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.52935266494751
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.588669776916504
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.644590377807617
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.697554111480713
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.747690677642822
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.795390605926514
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.7180495262146
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.884506702423096
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.925303936004639
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-4.965043544769287
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.0045366287231445
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.0443501472473145
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.084060192108154
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.122935771942139
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.161289215087891
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.1985602378845215
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.234866142272949
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.270235061645508
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.305019855499268
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.339046955108643
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.373952388763428
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.407735824584961
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.441235542297363
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.475235939025879
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.508520126342773
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.536710262298584
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.574967384338379
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.607888221740723
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.6407694816589355
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.673344612121582
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.7061052322387695
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.738851547241211
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.771327495574951
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.803760528564453
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.836389064788818
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.869169235229492
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.90138053894043
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.934105396270752
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.96635103225708
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-5.998830318450928
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.03163480758667
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.011460781097412
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.096401691436768
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.128513336181641
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.160162448883057
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.192468643188477
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.225130081176758
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.2579169273376465
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.291474342346191
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.324285984039307
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.357754230499268
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.391125679016113
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.4241180419921875
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.45689058303833
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.489945411682129
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.522773265838623
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.555723667144775
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.5891523361206055
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.623308181762695
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.656874656677246
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.690340995788574
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.723724842071533
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.757616996765137
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.79148006439209
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.825336456298828
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.859194755554199
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.893148422241211
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.927093982696533
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.961245059967041
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-6.99561882019043
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-7.02966833114624
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-7.064093112945557
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-7.098484516143799
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+torch.Size([1, 4, 224, 224])
+-7.132955551147461
